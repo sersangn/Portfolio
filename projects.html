@@ -62,8 +62,9 @@
     </header>
     <!-- end header section -->
 
+    
 
-  <!-- blog section -->
+  <!-- Project section -->
 
   <section class="blog_section layout_padding">
     <div class="container">
@@ -137,6 +138,7 @@
                   <p>
                   During the summer I volunteered in a summer project with Coders for Causes, where we developed a website for Starick, a domestic violence charity. Our tech stack included Vercel for deployment, TypeScript for scripting, and Headless WordPress as the backend. This experience enhanced my ability to work collaboratively in a team, manage project requirements, and deliver a functional and impactful web application.                  
                   </p>
+                  <a href="https://starick.vercel.app/"> Link to the starick vercel hosted webpage</a>
                 </div>
               </div>
             </div>
@@ -146,7 +148,7 @@
     </div>
   </section>
 
-  <!-- end blog section -->
+  <!-- end Project section -->
 
   <!-- Mario AI Project section -->
 
@@ -155,9 +157,34 @@
       Mario AI project
     </h3>
     <img class="marioaiimg" src="images/marioai.jpg" alt="marioAi image" />
-    <p style="margin-top: 50px;">
+    <a href="https://github.com/sersangn/Mario_AI_Project"> Github repo</a>
+    <p style="margin-top: 25px;">
       During my Super Mario AI project, I developed AI agents to control Mario in the Super Mario Bros game using the gym-super-mario-bros environment. I implemented a Rule-based AI and a Reinforcement Learning (RL) AI using Stable Baselines. The RL agent was fine-tuned for optimal performance, which involved addressing challenges in AI agent performance and optimization. Through this project, I gained skills in AI algorithm implementation, model optimization, and performance evaluation. I utilized Python and Stable Baselines for AI training and development, showcasing my technical proficiency and problem-solving abilities in enhancing AI agent effectiveness.
 
+    </p>
+
+    <h3 style="margin-top: 50px; margin-bottom: 25px;">
+      Rule-based AI agent
+    </h3>
+    <video width="640" height="360" controls>
+        <source src="videos/mariorulebased.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <p style="margin-top: 50px;">
+      I implemented a rule-based agent to play Super Mario Bros using Python, OpenCV, and Gym. The script utilizes Gym for the game environment and JoypadSpace to simplify controls, enabling seamless interaction with the game. Using OpenCV (cv2), I implemented template matching to locate various objects on the screen, including Mario, enemies like goombas and koopas, different types of blocks such as question blocks and pipes, and items like mushrooms. The make_action function I developed uses these object locations to make decisions in real-time gameplay. For instance, the agent jumps over enemies, navigates pipes, handles gaps, and manages stairs based on their positions relative to Mario. This project has sharpened my skills in computer vision, object recognition, and rule-based AI programming, while also demonstrating how to integrate these techniques into interactive game environments effectively using Python.
+    </p>
+
+    <h3 style="margin-top: 50px; margin-bottom: 25px;">
+      Stablebaselines Reinforcement learning AI agent
+    </h3>
+    <video width="640" height="360" controls>
+        <source src="videos/marioPPO.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <p style="margin-top: 50px;">
+      The video above shows our AI model at 2.03 million steps, that was the optimal model given our time and computing power constraints. This project involved using reinforcement learning (RL) to train an AI agent to play Super Mario Bros. Initially, the game environment is set up and preprocessed by simplifying controls and converting frames to grayscale. A Proximal Policy Optimization (PPO) algorithm is employed for training using stable baselines3, with a custom callback implemented to save checkpoints during the training process. The AI model learns over 1,000,000 time steps, aiming to optimize gameplay. Once trained, the model is tested by predicting actions in real-time based on game states, demonstrating its ability to autonomously play and navigate through the game environment. This project enhanced my skills in RL fundamentals, Python programming, deep learning application, and game AI development.
     </p>
 
   </div>
@@ -166,7 +193,7 @@
 
   <!-- end of Mario AI project section  -->
 
-  <!-- blog section -->
+  <!-- CMS project section -->
 
   <section class="blog_section layout_padding">
     <div class="container">
@@ -242,7 +269,7 @@
 
                   </p>
 
-                  <a src="https://www.wacsso.wa.edu.au/"> Their current website</a>
+                  <a href="https://www.wacsso.wa.edu.au/"> WACSSO's current website</a>
                 </div>
               </div>
             </div>
@@ -252,9 +279,9 @@
     </div>
   </section>
 
-  <!-- end blog section -->
+  <!-- end CMS project section -->
 
-  <!-- client section -->
+  <!-- Unit Project section -->
 
   <section class="client_section layout_padding">
     <div class="container" style="margin-left:900px;">
@@ -292,45 +319,65 @@
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <div class="client_content-box layout_padding">
-                        <div class="img-box">
+                        <!-- <div class="img-box">
                           <img src="images/client.png" alt="" />
-                        </div>
+                        </div> -->
                         <div class="detail-box">
                           <h4>
-                            Systems programming project
+                            Systems programming projects
                           </h4>
-                          <p>
-                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+                          <p style="font-size: smaller;"">
+                            During the CITS2002 Systems Programming project, I developed a command-line utility named mysync to synchronize the contents of two or more directories, ensuring identical file sets across multiple computers and USB drives. The project involved implementing advanced features of the C11 programming language, utilizing POSIX function calls, and creating a comprehensive Makefile for compilation and linking. I employed various system calls such as opendir, readdir, and stat to read directory contents, and implemented support for multiple command-line options, including recursive synchronization and file pattern matching using globbing and regular expressions. Through this project, I gained proficiency in system programming, file manipulation, and command-line interface design, while also enhancing my skills in C11, POSIX functions, and make utility.
+
                           </p>
                         </div>
                       </div>
                     </div>
                     <div class="carousel-item">
                       <div class="client_content-box layout_padding">
-                        <div class="img-box">
+                        <!-- <div class="img-box">
                           <img src="images/client.png" alt="" />
-                        </div>
+                        </div> -->
                         <div class="detail-box">
                           <h4>
                             Data Science Report
                           </h4>
-                          <p>
-                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+                          <p style="font-size: smaller;">
+                            In this project, I investigated trends in weekly rent changes in Australia from 1996 to 2021 using census data sourced from the Australian Bureau of Statistics (ABS). I processed and analyzed data across different years, adjusted for inflation, and visualized trends using bar and pie charts to understand rent distribution and landlord types. This project involved extensive data manipulation, including reading and transforming CSV files, handling Excel spreadsheets, and categorizing data into meaningful formats. Additionally, I gained proficiency in Python programming, data visualization with Matplotlib, and statistical analysis, enhancing my ability to handle real-world datasets, perform complex data processing tasks, and derive insights from large-scale data.
+
                           </p>
                         </div>
                       </div>
                     </div>
                     <div class="carousel-item">
                       <div class="client_content-box layout_padding">
-                        <div class="img-box">
+                        <!-- <div class="img-box">
                           <img src="images/client.png" alt="" />
+                        </div> -->
+                        <div class="detail-box">
+                          <h4>
+                            Statistics Assignment in R
+                          </h4>
+                          <p style="font-size: smaller;">
+                            In the STAT2401 Analysis of Experiments project for Semester 1, 2024, I undertook a comprehensive examination that covered a wide array of statistical techniques and methodologies using R. Throughout the project, I acquired proficiency in several key areas. These include data manipulation and analysis using packages such as ggplot2, PerformanceAnalytics, leaps, and MASS. I demonstrated competence in regression analysis, including simple linear regression, multiple linear regression, and model diagnostics. Moreover, I applied advanced statistical tests such as ANOVA, correlation tests, and hypothesis testing. Additionally, I gained practical experience in interpreting and visualizing data through various plots and summary statistics. This project not only enhanced my technical skills in R programming but also deepened my understanding of statistical concepts essential for data analysis in research and professional settings.
+
+                          </p>
+                          
                         </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="client_content-box layout_padding">
+                        <!-- <div class="img-box">
+                          <img src="images/client.png" alt="" />
+                        </div> -->
                         <div class="detail-box">
                           <h4>
                             Computer Networks Project
                           </h4>
-                          <p>
-                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+                          <p style="font-size: smaller;">
+                            For my Computer Networks Group project, we developed a distributed server application to facilitate queries about bus and train routes within a simulated transport network akin to Transperth. This project involved implementing station servers in both Python and C, utilizing TCP for HTTP-based queries from web browsers and UDP for inter-server communication. Each station server managed its timetable data, handling dynamic updates and responding to queries for route information between stations. Skills I acquired included proficiency in network programming with sockets, managing concurrent connections, parsing and storing data structures from text files, and designing a custom communication protocol. The project emphasized understanding of network protocols, system-level programming, and real-time data management within a distributed computing environment.
+
                           </p>
                           
                         </div>
@@ -350,16 +397,13 @@
               <div class="box b2">
                 <div class="camera_img-box">
                   <h3>
-                      Skills
+                      Skills learned
                     </h3>
                     <p>
-                      <li>Python</li>
-                      <li>C</li>
-                      <li>Java</li>
-                      <li>JavaScript, HTML, CSS</li>
-                      <li>TypeScript, React, Vercel</li>
-                      <li>Bash</li>
-                      
+                      <li>Developing command line utility in C</li>
+                      <li>Statisical analysis using R</li>
+                      <li>Data analysis and processing in Python</li>
+                      <li>Socket programming in C</li>
 
                     </p>
                 </div>
@@ -371,81 +415,9 @@
     </div>
   </section>
 
-  <!-- end client section -->
+  <!-- end Unit Project section -->
 
   
-  <!-- gallery section -->
-  <section class="gallery_section layout_padding-top">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 ml-auto">
-          <div class="heading_container">
-            <h2>
-              Volunteering experiences
-            </h2>
-            <p>
-              During my time in university I have always made an extra effort to give back to the community and take part in university life
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="gallery_container">
-      <div class="gallery_bg">
-        <img src="images/gallery-bg.png" alt="" />
-      </div>
-      <div class="container">
-        <div class="gallery_box">
-          <div class="box b1">
-            <div class="img-box">
-              <img src="images/gallery-1.jpg" alt="" />
-              <h5>
-                Coders for Causes Marketing Officer
-              </h5>
-            </div>
-          </div>
-          <div class="box b2">
-            <div class="img-box">
-              <img src="images/gallery-2.jpg" alt="" />
-              <h5>
-                Programming Competition Society Ordinary Committee Member
-              </h5>
-            </div>
-            <div class="img-box">
-              <img src="images/gallery-3.jpg" alt="" />
-              <h5>
-                UWA International Student Department PR Liason OCM
-              </h5>
-            </div>
-          </div>
-          <div class="box b3">
-            <div class="img-box">
-              <img src="images/gallery-4.jpg" alt="" />
-              <h5>
-                UWA UniMentor
-              </h5>
-            </div>
-            <div class="img-box">
-              <img src="images/gallery-5.jpg" alt="" />
-              <h5>
-                UWA Guild Volunteering
-              </h5>
-            </div>
-          </div>
-          <div class="box b4">
-            <div class="img-box">
-              <img src="images/gallery-6.jpg" alt="" />
-              <h5>
-                St Catherines College volunteering
-              </h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end gallery section -->
-
 
   <!-- info section -->
 
@@ -503,33 +475,21 @@
                     <a class="" href="about.html">About </a>
                   </li>
                   <li class="">
-                    <a class="" href="gallery.html">Gallery </a>
+                    <a class="" href="projects.html">Projects </a>
                   </li>
                   <li class="">
-                    <a class="" href="blog.html">Blog </a>
-                  </li>
-                  <li class="">
-                    <a class="" href="testimonial.html">Testimonial </a>
+                    <a class="" href="volunteering.html">Volunteering Experiences </a>
                   </li>
                 </ul>
               </div>
             </div>
             <div class="col-md-6 ">
               <div class="social_box">
-                <a href="#">
+                <a href="https://www.facebook.com/sersang.ngedup">
                   <img src="images/facebook.png" alt="" />
                 </a>
-                <a href="#">
-                  <img src="images/twitter.png" alt="" />
-                </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/sersang-ngedup/">
                   <img src="images/linkedin.png" alt="" />
-                </a>
-                <a href="#">
-                  <img src="images/instagram.png" alt="" />
-                </a>
-                <a href="#">
-                  <img src="images/youtube.png" alt="" />
                 </a>
               </div>
             </div>
