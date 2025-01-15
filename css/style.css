@@ -15,6 +15,7 @@ body {
   background-color: #89d5e3;
 }
 
+
 .center-container {
   margin-top: 300px;
   margin-bottom: 300px;
@@ -25,6 +26,18 @@ body {
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
+  opacity: 0; /* Initially invisible */
+  animation: fadeIn 3s ease-in forwards; /* Apply fade-in animation */
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* Start invisible */
+  }
+  100% {
+    opacity: 1; /* Fully visible */
+  }
 }
 
 .marioaiimg {
@@ -36,6 +49,7 @@ body {
   width: 700px;
   margin-right: 15px;
 }
+
 
 .layout_margin {
   margin-top: 90px;
@@ -140,6 +154,7 @@ body {
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
+  
 }
 
 .header_section .nav_container {
