@@ -12,7 +12,8 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   color: #ffffff;
-  background-color: #89d5e3;
+  /* background-color: #89d5e3; */
+  background: linear-gradient(to left, #89d5e3,rgb(56, 166, 234));
 }
 
 
@@ -172,6 +173,11 @@ nav ul li a:hover {
 
 .marioaiimg {
   width: 500px;
+  margin-right: 15px;
+}
+
+.marioaigif {
+  width: 50px;
   margin-right: 15px;
 }
 
@@ -1136,3 +1142,4 @@ a:focus {
   opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
+
