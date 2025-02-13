@@ -12,9 +12,30 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   color: #ffffff;
-  /* background-color: #89d5e3; */
+  /* background-color:rgb(107, 243, 229); */
   background: linear-gradient(to left, #89d5e3,rgb(56, 166, 234));
 }
+
+.github-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  background-color:rgb(25, 108, 234);
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.github-button:hover {
+  background-color: rgb(141, 181, 241);
+  color: rgb(25, 108, 234);
+  
+}
+
+
 
 
 .center-container {
